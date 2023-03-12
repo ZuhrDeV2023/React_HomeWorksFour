@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-// import FontAwesomeIcon from "@fortawesome/fontawesome-svg-core"
+
 function App() {
   const [todoList, setTodoList] = useState([]);
   const [newTask, setNewTask] = useState('');
