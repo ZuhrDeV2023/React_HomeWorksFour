@@ -28,7 +28,7 @@ function App() {
           <input className='formInp' placeholder='Iltimos ma`lumotlaringizni yozing' type="text" value={newTask} onChange={handleChange} />
           <button className='btnAdd' type="submit">Add Task</button>
         </form>
-        <ul>
+        <ul className='listbox'>
           {todoList.map((task, index) => (
             <li key={index}>
               {task}
